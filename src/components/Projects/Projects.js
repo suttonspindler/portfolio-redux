@@ -48,8 +48,8 @@ function Projects() {
               title="Leaky"
               description="Collaborated on user-experience design for prototype app used to detect water leaks in
               buildings."
-              demoLink="https://docs.google.com/presentation/d/1iDNFgkjJBG_ixZdO5ga_RQukxaTCW_ti_jky_TZNq6c/edit?usp=sharing"
-              demoLink2="https://4yrirn.axshare.com/?id=rw91fu&p=intial_page"              
+              presentationLink = "https://docs.google.com/presentation/d/1iDNFgkjJBG_ixZdO5ga_RQukxaTCW_ti_jky_TZNq6c/edit?usp=sharing"
+              demoLink = "https://4yrirn.axshare.com/?id=rw91fu&p=intial_page"            
             />
           </Col>
 
