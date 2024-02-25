@@ -22,7 +22,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
               title="Patient Daily Health Survey"
               description="Created for Aidar Health, a biotech company, this web application allows physicians to create daily health
               surveys and assign them to patients."
@@ -33,7 +32,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
               title="Snail Game"
               description="Programmed 3D horror/puzzle game in Unity with C# as entry for 2023 Jam-O-Lantern Game Jam."
               ghLink="https://github.com/AlexMalakov/SnailUnity"
@@ -44,7 +42,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              isBlog={false}
               title="Leaky"
               description="Collaborated on user-experience design for prototype app used to detect water leaks in
               buildings."
@@ -56,7 +53,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
-              isBlog={false}
               title="Marble Solitaire"
               description="Designed game containing UI using Swing to control user input and output of images in Java."
               ghLink="https://github.com/suttonspindler/Marble-Solitaire"
