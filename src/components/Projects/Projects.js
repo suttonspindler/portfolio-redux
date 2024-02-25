@@ -3,10 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -51,7 +49,7 @@ function Projects() {
               description="Collaborated on user-experience design for prototype app used to detect water leaks in
               buildings."
               demoLink="https://docs.google.com/presentation/d/1iDNFgkjJBG_ixZdO5ga_RQukxaTCW_ti_jky_TZNq6c/edit?usp=sharing"
-            //  demoLink2="https://4yrirn.axshare.com/?id=rw91fu&p=intial_page"              
+              demoLink2="https://4yrirn.axshare.com/?id=rw91fu&p=intial_page"              
             />
           </Col>
 
