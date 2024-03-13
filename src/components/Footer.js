@@ -28,7 +28,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <AiFillGithub style={{ fontSize: "24px" }} />
               </a>
             </li>
             <li className="social-icons">
@@ -38,7 +38,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn style={{ fontSize: "24px" }} />
               </a>
             </li>
           </ul>

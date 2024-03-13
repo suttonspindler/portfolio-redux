@@ -423,6 +423,16 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
+}
+
+.project-section::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -441,6 +451,8 @@ button:focus {
   box-shadow: 0 4px 5px 3px rgba(67, 87, 121, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
+  border: 1.7px solid rgba(84, 111, 197, 0.637) !important;
+  border-radius: 5px !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -449,6 +461,7 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(67, 87, 121, 0.561) !important;
+  background-color: rgba(193, 205, 226, 0.2) !important;
 }
 
 .card-img-top {
@@ -487,12 +500,23 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.about-section::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white !important;
 }
+
 
 .tech-icons {
   font-size: 4.5em !important;
@@ -509,6 +533,13 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.tech-label {
+  display: block;
+  margin-top: 5px; /* Adjust margin as needed */
+  font-size: 0.4em; /* Adjust the font size as needed */
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -519,6 +550,7 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(193, 205, 226, 0.883) !important;
+  background-color: rgba(193, 205, 226, 0.2) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -550,11 +582,21 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.resume-section::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white !important;
 }
 
 .resume {

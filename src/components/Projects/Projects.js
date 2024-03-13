@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import solitaire from "../../Assets/Projects/solitaire.png";
+import leaky from "../../Assets/Projects/leaky.png";
+import survey from "../../Assets/Projects/survey.png";
+import snail from "../../Assets/Projects/snail.png";
 
 function Projects() {
   return (
@@ -19,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={survey}
               title="Patient Daily Health Survey"
               description="Created for Aidar Health, a biotech company, this web application allows physicians to create daily health
               surveys and assign them to patients."
@@ -29,7 +29,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={snail}
               title="Snail Game"
               description="Programmed 3D horror/puzzle game in Unity with C# as entry for 2023 Jam-O-Lantern Game Jam."
               ghLink="https://github.com/AlexMalakov/SnailUnity"
@@ -39,7 +39,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={leaky}
               title="Leaky"
               description="Collaborated on user-experience design for prototype app used to detect water leaks in
               buildings."
@@ -50,7 +50,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={solitaire}
               title="Marble Solitaire"
               description="Designed game containing UI using Swing to control user input and output of images in Java."
               ghLink="https://github.com/suttonspindler/Marble-Solitaire"

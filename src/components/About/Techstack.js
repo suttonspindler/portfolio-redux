@@ -11,40 +11,32 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiPostgresql,
+  SiMysql,
+  SiC
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
+  const techStack = [
+    { icon: DiJava, label: "Java" },
+    { icon: DiJavascript1, label: "JavaScript" },
+    { icon: DiPython, label: "Python" },
+    { icon: SiC, label: "C" },
+    { icon: CgCPlusPlus, label: "C++" },
+    { icon: DiNodejs, label: "Node.js" },
+    { icon: DiReact, label: "React" },
+    { icon: DiMongodb, label: "MongoDB" },
+    { icon: DiGit, label: "Git" }
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      {techStack.map((tech, index) => (
+        <Col key={index} xs={4} md={2} className="tech-icons">
+          {React.createElement(tech.icon)}
+          <span className="tech-label">{tech.label}</span>
+        </Col>
+      ))}
     </Row>
   );
 }
