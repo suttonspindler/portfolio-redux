@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpeg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -30,7 +29,7 @@ function Home2() {
               My areas of interest are&nbsp;
               <i><b className="blue">Software Development,</b></i>{" "}
               <i><b className="blue">Web Development (Full Stack),</b></i> and{" "}
-              <i><b className="blue">Data Science</b></i>
+              <i><b className="blue">Data Science</b></i>.
               <br />
               <br />
             </p>
